@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class CustomElem {
+import java.io.Serializable;
+
+public class CustomElem implements Serializable {
     private String data;
     private String extension;
     private String description;

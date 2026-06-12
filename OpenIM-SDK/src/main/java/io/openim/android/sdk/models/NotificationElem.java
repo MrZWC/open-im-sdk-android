@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class NotificationElem {
+import java.io.Serializable;
+
+public class NotificationElem implements Serializable {
     /**
      * 通知内容详情
      */

@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class MessageEntity {
+import java.io.Serializable;
+
+public class MessageEntity implements Serializable {
     private String type;
     private int offset;
     private int length;

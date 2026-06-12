@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class CardElem {
+import java.io.Serializable;
+
+public class CardElem implements Serializable {
     private String userID;
     private String nickname;
     private String faceURL;

@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class SoundElem {
+import java.io.Serializable;
+
+public class SoundElem implements Serializable {
     /**
      * 唯一ID
      */

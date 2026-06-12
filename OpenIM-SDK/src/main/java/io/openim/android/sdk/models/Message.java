@@ -1,9 +1,10 @@
 package io.openim.android.sdk.models;
 
+import java.io.Serializable;
 import java.util.Map;
 import java.util.Objects;
 
-public class Message {
+public class Message implements Serializable {
     /**
      * 消息唯一ID
      */

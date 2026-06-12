@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class TypingElem {
+import java.io.Serializable;
+
+public class TypingElem implements Serializable {
     private String msgTips;
 
     public String getMsgTips() {

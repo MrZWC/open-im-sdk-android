@@ -1,9 +1,11 @@
 package io.openim.android.sdk.models;
 
+import java.io.Serializable;
+
 /**
  * 表情
  */
-public class FaceElem {
+public class FaceElem implements Serializable {
     /**
      * app内嵌表情包，根据index 匹配显示表情图
      * */

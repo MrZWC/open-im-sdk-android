@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class FileElem {
+import java.io.Serializable;
+
+public class FileElem implements Serializable {
     /**
      * 文件本地资源地址
      */

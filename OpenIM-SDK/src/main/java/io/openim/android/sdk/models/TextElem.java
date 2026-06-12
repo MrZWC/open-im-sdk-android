@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class TextElem {
+import java.io.Serializable;
+
+public class TextElem implements Serializable {
     private String content;
 
     public String getContent() {

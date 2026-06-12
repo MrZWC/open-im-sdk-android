@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class OfflinePushInfo {
+import java.io.Serializable;
+
+public class OfflinePushInfo implements Serializable {
     private String title;
     private String desc;
     private String ex;

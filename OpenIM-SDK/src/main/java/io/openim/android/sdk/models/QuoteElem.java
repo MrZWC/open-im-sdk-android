@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class QuoteElem {
+import java.io.Serializable;
+
+public class QuoteElem implements Serializable {
     /**
      * 回复内容
      */

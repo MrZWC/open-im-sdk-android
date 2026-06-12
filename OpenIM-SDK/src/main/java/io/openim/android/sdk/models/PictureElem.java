@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class PictureElem {
+import java.io.Serializable;
+
+public class PictureElem implements Serializable {
     /**
      * 本地资源地址
      */

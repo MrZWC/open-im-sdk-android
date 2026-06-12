@@ -1,8 +1,9 @@
 package io.openim.android.sdk.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class AdvancedTextElem {
+public class AdvancedTextElem implements Serializable {
     private String text;
     private List<MessageEntity> messageEntityList;
 

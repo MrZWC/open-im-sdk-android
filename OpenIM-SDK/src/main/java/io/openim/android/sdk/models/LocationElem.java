@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class LocationElem {
+import java.io.Serializable;
+
+public class LocationElem implements Serializable {
     /**
      * 位置描述
      */

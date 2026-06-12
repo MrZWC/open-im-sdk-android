@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class PictureInfo {
+import java.io.Serializable;
+
+public class PictureInfo implements Serializable {
     /**
      * 唯一ID
      */

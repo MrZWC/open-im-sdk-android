@@ -1,8 +1,9 @@
 package io.openim.android.sdk.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class AtTextElem {
+public class AtTextElem implements Serializable {
     /**
      * at 消息内容
      */

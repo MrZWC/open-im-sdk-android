@@ -1,8 +1,9 @@
 package io.openim.android.sdk.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class MergeElem {
+public class MergeElem implements Serializable {
     /**
      * 标题
      */

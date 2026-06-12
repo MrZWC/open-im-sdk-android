@@ -1,6 +1,8 @@
 package io.openim.android.sdk.models;
 
-public class VideoElem {
+import java.io.Serializable;
+
+public class VideoElem implements Serializable {
     /**
      * 视频本地资源地址
      */
